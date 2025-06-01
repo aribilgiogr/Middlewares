@@ -2,7 +2,7 @@ using Middlewares.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 //Service Collection Section
-builder.Services.AddHttpsRedirectionAndHsts();
+//builder.Services.AddHttpsRedirectionAndHsts();
 
 var app = builder.Build();
 //Application Builder Section
